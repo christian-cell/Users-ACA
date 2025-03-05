@@ -45,6 +45,7 @@ jobs:
           docker push chrusers.azurecr.io/users-aca:latest
           docker push chrusers.azurecr.io/users-aca:${{ env.VERSION }}
 
+      # go go go go
       - name: '🚀 Deploy to Azure Container Apps'
         run: |
-          az containerapp update --name aca-users-aca --resource-group users-rg-container-dev --image chrusers.azurecr.io/users-aca:latest
+          az containerapp update --name users-container-app --resource-group users-rg-container-dev --image chrusers.azurecr.io/users-aca:latest
