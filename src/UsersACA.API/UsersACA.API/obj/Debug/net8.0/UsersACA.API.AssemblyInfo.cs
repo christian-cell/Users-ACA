@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsersACA.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65719a16099ed046fac1480f8a7ececa9aafcd6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+148e190b8bdaeaf88dd5fa34f8d9391df9a9c392")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsersACA.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsersACA.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
