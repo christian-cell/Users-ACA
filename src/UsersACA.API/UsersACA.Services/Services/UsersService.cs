@@ -7,7 +7,7 @@ namespace UsersACA.Services.Services
         public string GreatPeople()
         {
             /*nuevo mensaje*/
-            return "prueba sin usar continuos deployment";
+            return "prueba sin usando continuos deployment";
         }
     }
 };
