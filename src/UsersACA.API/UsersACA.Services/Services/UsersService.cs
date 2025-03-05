@@ -6,7 +6,6 @@ namespace UsersACA.Services.Services
     {
         public string GreatPeople()
         {
-            /*nuevo mensaje*/
             return "Hola que assseeee";
         }
     }
