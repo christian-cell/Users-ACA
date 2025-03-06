@@ -6,7 +6,7 @@ namespace UsersACA.Services.Services
     {
         public string GreatPeople()
         {
-            return "Hola que assseeee , otra prueba , parece la definitiva";
+            return "vamos a crear un nuevo endpoint";
         }
     }
 };
