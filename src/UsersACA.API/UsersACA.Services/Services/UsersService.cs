@@ -6,7 +6,7 @@ namespace UsersACA.Services.Services
     {
         public string GreatPeople()
         {
-            return "Hola que assseeee ni ño";
+            return "Hola que assseeee nino";
         }
     }
 };

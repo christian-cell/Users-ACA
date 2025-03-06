@@ -16,8 +16,8 @@ RUN dotnet build "UsersACA.API/UsersACA.API.csproj" -c $BUILD_CONFIGURATION -o /
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "UsersACA.API/UsersACA.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-RUN rm /src/UsersACA.API/UsersACA.API.deps.json || true
-RUN rm /src/UsersACA.API/UsersACA.API.runtimeconfig.json || true
+#RUN rm /src/UsersACA.API/UsersACA.API.deps.json || true
+#RUN rm /src/UsersACA.API/UsersACA.API.runtimeconfig.json || true
 
 FROM base AS final
 WORKDIR /app
