@@ -6,7 +6,7 @@ namespace UsersACA.Services.Services
     {
         public string GreatPeople()
         {
-            return "probando web hook";
+            return "pulumi stack acr mas webapp terminado";
         }
     }
 };
