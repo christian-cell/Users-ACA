@@ -33,7 +33,7 @@ jobs:
 
       - name: '🔓 Login to Azure Container Registry'
         run: |
-          az acr login --name chrUsers
+          az acr login --name pulumiacrchr
 
       - name: '🔰 Tag Docker image'
         run: |
