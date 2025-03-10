@@ -48,4 +48,4 @@ jobs:
       # go go go go
       - name: '🚀 Deploy to Azure Container Apps'
         run: |
-          az containerapp update --name users-container-app --resource-group users-acr-rg-dev --image pulumiacrchr.azurecr.io/users-aca:latest
+          az containerapp update --name users-container-app --resource-group users-rg-container-dev --image pulumiacrchr.azurecr.io/users-aca:latest
