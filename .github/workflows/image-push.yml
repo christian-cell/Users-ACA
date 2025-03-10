@@ -11,7 +11,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    #check relative paths
     defaults:
       run:
         working-directory: './src/UsersACA.API'
